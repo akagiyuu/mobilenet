@@ -20,7 +20,7 @@
 
 = Standard Convolution
 #figure(
-  image("standard-conv.png"),
+  image("image/standard-conv.png"),
   caption: [Standard convolution with 8x8x256 output],
 )
 == Steps involved:
@@ -56,7 +56,7 @@ Break a standard convolution into two parts:
 == Equation
 - Depth-wise Convolution
 #figure(
-  image("depth-wise-conv.png"),
+  image("image/depth-wise-conv.png"),
   caption: [Depth-wise convolution, use 3 kernels to transform a 12x12x3 image to a 8x8x3 image],
 )
 $
@@ -77,7 +77,7 @@ $
 
 - Point-wise Convolution Equation:
 #figure(
-  image("point-wise-conv.png"),
+  image("image/point-wise-conv.png"),
   caption: [Point-wise convolution with 256 kernels, outputting an image with 256 channels],
 )
 $ y(h', w', c') = sum_(c = 1)^(C) y(h', w', c) dot k_(c')(1, 1, c) $
