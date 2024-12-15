@@ -130,6 +130,10 @@ $
 = MobileNet V2
 
 - Improvement over V1 with better accuracy and efficiency.
+#figure(
+    image("image/residual-block.png"),
+    caption: [Residual block]
+)
 - Introduced the Inverted Residual Block:
   - Expands input with point-wise convolution.
   - Applies depth-wise convolution.
